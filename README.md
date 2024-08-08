@@ -1,6 +1,7 @@
-# Temporal-Sentence-Grounding
+# Temporal Sentence Grounding
 
 List of Temporal Sentence Grounding papers.
+
 The task is also usually referred to as:
 - Temporal Sentence Grounding (TSG)
 - Video Moment Retrieval (VMR)
@@ -15,10 +16,15 @@ The task is also usually referred to as:
     - [2023](#2023)-[2024](#2024)
 
 # 1 Survey
-Temporal Sentence Grounding in Videos: A Survey and Future Directions. *TPAMI 2023*. [[paper](https://ieeexplore.ieee.org/abstract/document/10075491)]
+- Temporal Sentence Grounding in Videos: A Survey and Future Directions. *TPAMI'23*. [[paper](https://ieeexplore.ieee.org/abstract/document/10075491)]
+- A Survey on Video Moment Localization. *ACM Comput. Surv.'23*. [[paper](https://dl.acm.org/doi/abs/10.1145/3556537)]
 
-A Survey on Video Moment Localization. *ACM Comput. Surv. 2023*. [[paper](https://dl.acm.org/doi/abs/10.1145/3556537)]
 # 2 Datasets
+- Charades-STA: VGG, C3D, I3D, CLIP+SF
+- TACoS: C3D
+- ActivityNet Captions: C3D
+- QVHighlights: CLIP+SF
+
 # 3 Paper
 ## 2017
 ## 2018
@@ -28,3 +34,5 @@ A Survey on Video Moment Localization. *ACM Comput. Surv. 2023*. [[paper](https:
 ## 2022
 ## 2023
 ## 2024
+- Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval. *AAAI'24*. [[paper](https://arxiv.org/abs/2312.12155)] [[code](https://github.com/lntzm/MESM)]
+- TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection. *AAAI'24*. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28304)] [[code](https://github.com/mingyao1120/TR-DETR)]

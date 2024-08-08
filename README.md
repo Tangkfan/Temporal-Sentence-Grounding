@@ -7,7 +7,7 @@ The task is also usually referred to as:
 - Temporal Activity Localization via Language Query (TALL)
 
 # Content
-[跳转到更新](#1 Survey) 
+- [Survey](#1-Survey) 
 
 # 1 Survey
 # 2 Datasets

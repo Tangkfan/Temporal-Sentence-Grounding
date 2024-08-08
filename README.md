@@ -43,11 +43,16 @@ The task is also usually referred to as:
 ### Weakly Supervised
 **MIL-based**
 - [CVPR'19] [Weakly Supervised Video Moment Retrieval From Text Queries](https://openaccess.thecvf.com/content_CVPR_2019/html/Mithun_Weakly_Supervised_Video_Moment_Retrieval_From_Text_Queries_CVPR_2019_paper.html). UCR Amit K. Roy-Chowdhury团队 [[code](https://github.com/niluthpol/weak_supervised_video_moment)]
-    - 正式提出weakly supervised temporal sentence grounding任务
+    - 正式提出weakly supervised temporal sentence grounding任务。
 
 ## 2020 
+### Weakly Supervised
+**Reconstruction-based**
+- [AAAI'20] [Weakly-Supervised Video Moment Retrieval via Semantic Completion Network](https://ojs.aaai.org/index.php/AAAI/article/view/6820). 浙大 赵洲团队 [[code](https://github.com/ikuinen/semantic_completion_network)]
+    - 首次在WTSG任务中使用掩码重建的方法。
 
 ## 2021
+### Fully Supervised
 **DETR-based**
 - [NeurIPS'21] [QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries](https://proceedings.neurips.cc/paper/2021/hash/62e0973455fd26eb03e91d5741a4a3bb-Abstract.html). UNC 雷杰 [[code](https://github.com/jayleicn/moment_detr)]
     - 将MR和HD任务联合，首次将DETR引入VMR领域。

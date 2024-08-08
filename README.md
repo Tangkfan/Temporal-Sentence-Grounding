@@ -28,17 +28,23 @@ The task is also usually referred to as:
 # 3 Paper
 ## 2017
 首次提出TSG任务。
+**Proposal-based**
 - [ICCV'17] [TALL: Temporal Activity Localization via Language Query](https://openaccess.thecvf.com/content_iccv_2017/html/Gao_TALL_Temporal_Activity_ICCV_2017_paper.html). 南加大 高继扬 [[code](https://github.com/jiyanggao/TALL)]
 - [ICCV'17] [Localizing Moments in Video with Natural Language](https://openaccess.thecvf.com/content_iccv_2017/html/Hendricks_Localizing_Moments_in_ICCV_2017_paper.html). 伯克利 Lisa Anne Hendricks [[code](https://github.com/LisaAnne/LocalizingMoments)]
+
 ## 2018
+
 ## 2019
+
 ## 2020 
+
 ## 2021
 **DETR-based**
 - [NeurIPS'21] [QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries](https://proceedings.neurips.cc/paper/2021/hash/62e0973455fd26eb03e91d5741a4a3bb-Abstract.html). UNC 雷杰 [[code](https://github.com/jayleicn/moment_detr)]
     - 将MR和HD任务联合，首次将DETR引入VMR领域。
 
 ## 2022
+
 ## 2023
 ### Fully Supervised
 **DETR-based**

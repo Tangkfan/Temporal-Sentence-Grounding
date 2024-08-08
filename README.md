@@ -28,13 +28,22 @@ The task is also usually referred to as:
 # 3 Paper
 ## 2017
 首次提出TSG任务。
+
 **Proposal-based**
 - [ICCV'17] [TALL: Temporal Activity Localization via Language Query](https://openaccess.thecvf.com/content_iccv_2017/html/Gao_TALL_Temporal_Activity_ICCV_2017_paper.html). 南加大 高继扬 [[code](https://github.com/jiyanggao/TALL)]
 - [ICCV'17] [Localizing Moments in Video with Natural Language](https://openaccess.thecvf.com/content_iccv_2017/html/Hendricks_Localizing_Moments_in_ICCV_2017_paper.html). 伯克利 Lisa Anne Hendricks [[code](https://github.com/LisaAnne/LocalizingMoments)]
 
 ## 2018
+### Weakly Supervised
+**Reconstruction-based**
+- [NeurIPS'18] [Weakly Supervised Dense Event Captioning in Videos](https://proceedings.neurips.cc/paper/2018/hash/49af6c4e558a7569d80eee2e035e2bd7-Abstract.html). 清华 朱文武团队 [[code](https://github.com/ranjaykrishna/densevid_eval)]
+    - 首次提出弱监督密集事件描述，在训练中涉及到了TSG问题
 
 ## 2019
+### Weakly Supervised
+**MIL-based**
+- [CVPR'19] [Weakly Supervised Video Moment Retrieval From Text Queries](https://openaccess.thecvf.com/content_CVPR_2019/html/Mithun_Weakly_Supervised_Video_Moment_Retrieval_From_Text_Queries_CVPR_2019_paper.html). UCR Amit K. Roy-Chowdhury团队 [[code](https://github.com/niluthpol/weak_supervised_video_moment)]
+    - 正式提出weakly supervised temporal sentence grounding任务
 
 ## 2020 
 
@@ -65,5 +74,6 @@ The task is also usually referred to as:
 - [AAAI'24] [Bias-Conflict Sample Synthesis and Adversarial Removal Debias Strategy for Temporal Sentence Grounding in Video](https://ojs.aaai.org/index.php/AAAI/article/view/28252). 哈工大 张维刚团队 [[code](https://github.com/qzhb/BSSARD)]
 
 ### Weakly Supervised
+**Reconstruction-based**
 - [AAAI'24] [Gaussian Mixture Proposals with Pull-Push Learning Scheme to Capture Diverse Events for Weakly Supervised Temporal Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/28059). 首尔大学 Jin Young Choi团队 [[code](https://github.com/sunoh-kim/pps)]
 - [PR'24] [Triadic temporal-semantic alignment for weakly-supervised video moment retrieval](https://www.sciencedirect.com/science/article/pii/S0031320324005703). 山东大学 周风余团队

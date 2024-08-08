@@ -34,5 +34,6 @@ The task is also usually referred to as:
 ## 2022
 ## 2023
 ## 2024
-- Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval. *AAAI'24*. [[paper](https://arxiv.org/abs/2312.12155)] [[code](https://github.com/lntzm/MESM)]
-- TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection. *AAAI'24*. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28304)] [[code](https://github.com/mingyao1120/TR-DETR)]
+- Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval. *AAAI'24*. 中科大 谢洪涛团队 [[paper](https://arxiv.org/abs/2312.12155)] [[code](https://github.com/lntzm/MESM)]
+- TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection. *AAAI'24*. 华中师范 谢伟团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28304)] [[code](https://github.com/mingyao1120/TR-DETR)]
+- Bias-Conflict Sample Synthesis and Adversarial Removal Debias Strategy for Temporal Sentence Grounding in Video. *AAAI'24*. 哈工大 张维刚团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28252)] [[code](https://github.com/qzhb/BSSARD)]

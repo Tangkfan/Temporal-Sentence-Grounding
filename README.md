@@ -16,8 +16,8 @@ The task is also usually referred to as:
     - [2023](#2023)-[2024](#2024)
 
 # 1 Survey
-- Temporal Sentence Grounding in Videos: A Survey and Future Directions. *TPAMI'23*. [[paper](https://ieeexplore.ieee.org/abstract/document/10075491)]
-- A Survey on Video Moment Localization. *ACM Comput. Surv.'23*. [[paper](https://dl.acm.org/doi/abs/10.1145/3556537)]
+- Temporal Sentence Grounding in Videos: A Survey and Future Directions. *TPAMI'23*. NTU 孙爱欣团队 [[paper](https://ieeexplore.ieee.org/abstract/document/10075491)]
+- A Survey on Video Moment Localization. *ACM Comput. Surv.'23*. 哈工大 聂礼强团队 [[paper](https://dl.acm.org/doi/abs/10.1145/3556537)]
 
 # 2 Datasets
 - Charades-STA: VGG, C3D, I3D, CLIP+SF

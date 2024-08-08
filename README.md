@@ -34,7 +34,9 @@ The task is also usually referred to as:
 ## 2022
 ## 2023
 ## 2024
+### fully supervised
 - [AAAI'24] Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval. 中科大 谢洪涛团队 [[paper](https://arxiv.org/abs/2312.12155)] [[code](https://github.com/lntzm/MESM)]
 - [AAAI'24] TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection. 华中师范 谢伟团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28304)] [[code](https://github.com/mingyao1120/TR-DETR)]
 - [AAAI'24] Bias-Conflict Sample Synthesis and Adversarial Removal Debias Strategy for Temporal Sentence Grounding in Video. 哈工大 张维刚团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28252)] [[code](https://github.com/qzhb/BSSARD)]
+### weakly supervised
 - [AAAI'24] Gaussian Mixture Proposals with Pull-Push Learning Scheme to Capture Diverse Events for Weakly Supervised Temporal Video Grounding. 首尔大学 Jin Young Choi团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28059)] [[code](https://github.com/sunoh-kim/pps)]

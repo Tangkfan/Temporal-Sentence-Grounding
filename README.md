@@ -38,6 +38,7 @@ The task is also usually referred to as:
 **DETR-based**
 - [AAAI'24] Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval. 中科大 谢洪涛团队 [[paper](https://arxiv.org/abs/2312.12155)] [[code](https://github.com/lntzm/MESM)]
 - [AAAI'24] TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection. 华中师范 谢伟团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28304)] [[code](https://github.com/mingyao1120/TR-DETR)]
+
 **bias**
 - [AAAI'24] Bias-Conflict Sample Synthesis and Adversarial Removal Debias Strategy for Temporal Sentence Grounding in Video. 哈工大 张维刚团队 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28252)] [[code](https://github.com/qzhb/BSSARD)]
 ### weakly supervised

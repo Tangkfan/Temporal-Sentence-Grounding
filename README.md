@@ -2,12 +2,12 @@
 
 List of Temporal Sentence Grounding papers.
 The task is also usually referred to as:
--Temporal Sentence Grounding (TSG)
--Video Moment Retrieval (VMR)
--Temporal Activity Localization via Language Query (TALL)
+- Temporal Sentence Grounding (TSG)
+- Video Moment Retrieval (VMR)
+- Temporal Activity Localization via Language Query (TALL)
 
 # Content
--[1 Survey](#1 Survey)
+[TOC]
 
 # 1 Survey
 # 2 Datasets

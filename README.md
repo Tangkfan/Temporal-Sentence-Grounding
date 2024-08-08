@@ -37,20 +37,24 @@ The task is also usually referred to as:
 
 ## 2022
 ## 2023
+### Fully Supervised
 **DETR-based**
 - [ACL'23] [MS-DETR: Natural Language Video Localization with Sampling Moment-Moment Interaction](https://aclanthology.org/2023.acl-long.77/). NTU 孙爱欣团队 [[code](https://github.com/K-Nick/MS-DETR)]
 - [CVPR'23] [Query-Dependent Video Representation for Moment Retrieval and Highlight Detection](https://openaccess.thecvf.com/content/CVPR2023/html/Moon_Query-Dependent_Video_Representation_for_Moment_Retrieval_and_Highlight_Detection_CVPR_2023_paper.html). 成均馆大学 Jae-Pil Heo团队 [[code](https://github.com/wjun0830/QD-DETR)]
 - [ICCV'23] [Knowing Where to Focus: Event-aware Transformer for Video Grounding](https://openaccess.thecvf.com/content/ICCV2023/html/Jang_Knowing_Where_to_Focus_Event-aware_Transformer_for_Video_Grounding_ICCV_2023_paper.html). 延世大学 Kwanghoon Sohn团队 [[code](https://github.com/jinhyunj/EaTR)]
+- [NeurIPS'23] [MomentDiff: Generative Video Moment Retrieval from Random to Real](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d01bda31bbcd780774ff15b534e03c40-Abstract-Conference.html). 中科大 谢洪涛团队 [[code](https://github.com/IMCCretrieval/MomentDiff)]
+    - 利用diffusion的思想去噪生成预测时刻
 
 ## 2024
-### fully supervised
+### Fully Supervised
 **DETR-based**
 - [AAAI'24] [Towards Balanced Alignment: Modal-Enhanced Semantic Modeling for Video Moment Retrieval](https://arxiv.org/abs/2312.12155). 中科大 谢洪涛团队 [[code](https://github.com/lntzm/MESM)]
     - 针对模态不平衡问题
 - [AAAI'24] [TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection](https://ojs.aaai.org/index.php/AAAI/article/view/28304). 华中师范 谢伟团队 [[code](https://github.com/mingyao1120/TR-DETR)]
 
-**bias**
+**Bias**
 - [AAAI'24] [Bias-Conflict Sample Synthesis and Adversarial Removal Debias Strategy for Temporal Sentence Grounding in Video](https://ojs.aaai.org/index.php/AAAI/article/view/28252). 哈工大 张维刚团队 [[code](https://github.com/qzhb/BSSARD)]
 
-### weakly supervised
+### Weakly Supervised
 - [AAAI'24] [Gaussian Mixture Proposals with Pull-Push Learning Scheme to Capture Diverse Events for Weakly Supervised Temporal Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/28059). 首尔大学 Jin Young Choi团队 [[code](https://github.com/sunoh-kim/pps)]
+- [PR'24] [Triadic temporal-semantic alignment for weakly-supervised video moment retrieval](https://www.sciencedirect.com/science/article/pii/S0031320324005703). 山东大学 周风余团队

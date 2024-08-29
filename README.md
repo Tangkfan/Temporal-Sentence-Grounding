@@ -45,17 +45,21 @@ The task is also usually referred to as:
 ## 2019
 ### Fully Supervised
 **Proposal-based**
+- [CVPR'19] [MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_MAN_Moment_Alignment_Network_for_Natural_Language_Moment_Retrieval_via_CVPR_2019_paper.html). UCSB Da Zhang
 
 ### Weakly Supervised
 **MIL-based**
 - [CVPR'19] [Weakly Supervised Video Moment Retrieval From Text Queries](https://openaccess.thecvf.com/content_CVPR_2019/html/Mithun_Weakly_Supervised_Video_Moment_Retrieval_From_Text_Queries_CVPR_2019_paper.html). UCR Amit K. Roy-Chowdhury团队 [[code](https://github.com/niluthpol/weak_supervised_video_moment)]
     - 正式提出weakly supervised temporal sentence grounding任务。
 
-## 2020 
+## 2020
 ### Fully Supervised
 **Proposal-based**
+- [AAAI'20] [Learning 2D Temporal Adjacent Networks for Moment Localization with Natural Language](https://ojs.aaai.org/index.php/AAAI/article/view/6984). UR 张宋扬 [[code](https://github.com/microsoft/2D-TAN)]
+	- 首次提出2D map的方法，后面proposal-based的论文大多都是基于这个方法。
 
 **Proposal-free**
+- [ACL'20] [Span-based Localizing Network for Natural Language Video Localization](https://aclanthology.org/2020.acl-main.585/). NTU 孙爱欣团队 [[code](https://github.com/26hzhang/VSLNet)]
 
 ### Weakly Supervised
 **Reconstruction-based**
@@ -65,8 +69,18 @@ The task is also usually referred to as:
 ## 2021
 ### Fully Supervised
 **Proposal-based**
+- [SIGIR'21] [Deconfounded Video Moment Retrieval with Causal Intervention](https://dl.acm.org/doi/abs/10.1145/3404835.3462823). NUS Tat-Seng Chua 团队 [[code](https://github.com/Xun-Yang/Causal_Video_Moment_Retrieval)]
+	- 将因果推理引入TSG，消除视频中的位置信息带来的偏差
+- [CVPR'21] [Interventional Video Grounding with Dual Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Nan_Interventional_Video_Grounding_With_Dual_Contrastive_Learning_CVPR_2021_paper.html). 北邮 南国顺
+	- Contrastive learning + causal intervention
+- [CVPR'21] [Multi-Modal Relational Graph for Cross-Modal Video Moment Retrieval](https://openaccess.thecvf.com/content/CVPR2021/html/Zeng_Multi-Modal_Relational_Graph_for_Cross-Modal_Video_Moment_Retrieval_CVPR_2021_paper.html). 湖南大学 曹达团队
+- [ICCV'21] [Fast Video Moment Retrieval](https://openaccess.thecvf.com/content/ICCV2021/html/Gao_Fast_Video_Moment_Retrieval_ICCV_2021_paper.html). 中科院 徐常胜团队
+
 
 **Proposal-free**
+- [TPAMI'21] [Natural Language Video Localization: A Revisit in Span-Based Question Answering Framework](https://ieeexplore.ieee.org/abstract/document/9361191). NTU 孙爱欣团队
+	- VSLNet (ACL'20)的扩展版
+- [TMM'21] [Frame-Wise Cross-Modal Matching for Video Moment Retrieval](https://ieeexplore.ieee.org/abstract/document/9374685/). 齐鲁工业大学 程志勇团队 [[code](https://github.com/tanghaoyu258/ACRM-for-moment-retrieval)]
 
 **DETR-based**
 - [NeurIPS'21] [QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries](https://proceedings.neurips.cc/paper/2021/hash/62e0973455fd26eb03e91d5741a4a3bb-Abstract.html). UNC 雷杰 [[code](https://github.com/jayleicn/moment_detr)]
@@ -81,10 +95,13 @@ The task is also usually referred to as:
 ### Fully Supervised
 **Proposal-based**
 - [SIGIR'22] [You Need to Read Again: Multi-granularity Perception Network for Moment Retrieval in Videos](https://dl.acm.org/doi/abs/10.1145/3477495.3532083). 上交 周曦团队 [[code](https://github.com/Huntersxsx/MGPN)]
+- [TCSVT'22] [Efficient Video Grounding With Which-Where Reading Comprehension](https://ieeexplore.ieee.org/abstract/document/9771472/). 上交 周曦团队
 
 **Proposal-free**
+- [TIP'22] [HiSA: Hierarchically Semantic Associating for Video Temporal Grounding](https://ieeexplore.ieee.org/abstract/document/9846867/). 西电 邓成团队 [[code](https://github.com/zhexu1997/HiSA)]
 
 **DETR-based**
+- [CVPR'22] [UMT: Unified Multi-modal Transformers for Joint Video Moment Retrieval and Highlight Detection](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_UMT_Unified_Multi-Modal_Transformers_for_Joint_Video_Moment_Retrieval_and_CVPR_2022_paper.html). 腾讯ARC lab [[code](https://github.com/TencentARC/UMT)]
 
 ### Weakly Supervised
 **Reconstruction-based**
@@ -102,6 +119,7 @@ The task is also usually referred to as:
 ### Fully Supervised
 **Proposal-based**
 - [AAAI'23] [Phrase-Level Temporal Relationship Mining for Temporal Sentence Localization](https://ojs.aaai.org/index.php/AAAI/article/view/25478). 北大 刘洋团队 [[code](https://github.com/minghangz/TRM)]
+- [ICCV'23] [G2L: Semantically Aligned and Uniform Video Grounding via Geodesic and Game Theory](https://openaccess.thecvf.com/content/ICCV2023/html/Li_G2L_Semantically_Aligned_and_Uniform_Video_Grounding_via_Geodesic_and_ICCV_2023_paper.html). 北大 邹月娴团队
 
 **Proposal-free**
 
@@ -111,11 +129,18 @@ The task is also usually referred to as:
 - [ICCV'23] [Knowing Where to Focus: Event-aware Transformer for Video Grounding](https://openaccess.thecvf.com/content/ICCV2023/html/Jang_Knowing_Where_to_Focus_Event-aware_Transformer_for_Video_Grounding_ICCV_2023_paper.html). 延世大学 Kwanghoon Sohn团队 [[code](https://github.com/jinhyunj/EaTR)]
 - [NeurIPS'23] [MomentDiff: Generative Video Moment Retrieval from Random to Real](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d01bda31bbcd780774ff15b534e03c40-Abstract-Conference.html). 中科大 谢洪涛团队 [[code](https://github.com/IMCCretrieval/MomentDiff)]
     - 利用diffusion的思想去噪生成预测时刻
- 
+
+**Bias**
+- [AAAI'23] [Curriculum Multi-Negative Augmentation for Debiased Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/25204). 清华 朱文武团队
+
 ### Weakly Supervised
 **Reconstruction-based**
 - [CVPR'23] [Weakly Supervised Temporal Sentence Grounding with Uncertainty-Guided Self-training](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Weakly_Supervised_Temporal_Sentence_Grounding_With_Uncertainty-Guided_Self-Training_CVPR_2023_paper.html). 东京大学 Yoichi Sato团队
 - [CVPR'23] [Iterative Proposal Refinement for Weakly-Supervised Video Grounding](https://openaccess.thecvf.com/content/CVPR2023/html/Cao_Iterative_Proposal_Refinement_for_Weakly-Supervised_Video_Grounding_CVPR_2023_paper.html). 北大 邹月娴团队
+- [ICCV'23] [SCANet: Scene Complexity Aware Network for Weakly-Supervised Video Moment Retrieval](https://openaccess.thecvf.com/content/ICCV2023/html/Yoon_SCANet_Scene_Complexity_Aware_Network_for_Weakly-Supervised_Video_Moment_Retrieval_ICCV_2023_paper.html). 韩国科学技术院 Chang D. Yoo团队
+
+### Point-supervised/Glance
+- [ICCV'23] [D3G: Exploring Gaussian Prior for Temporal Sentence Grounding with Glance Annotation](https://openaccess.thecvf.com/content/ICCV2023/html/Li_D3G_Exploring_Gaussian_Prior_for_Temporal_Sentence_Grounding_with_Glance_ICCV_2023_paper.html). 腾讯优图 [[code](https://github.com/solicucu/D3G)]
 
 ### Zero-shot
 - [ACL'23] [Generating Structured Pseudo Labels for Noise-resistant Zero-shot Video Sentence Localization](https://aclanthology.org/2023.acl-long.794/). 北大 刘洋团队 [[code](https://github.com/minghangz/SPL)]

@@ -16,7 +16,7 @@ The task is also usually referred to as:
     - [2023](#2023)-[2024](#2024)
 
 # 1 Survey
-- [TPAMI'23][Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队 
+- [TPAMI'23][Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队
 - [ACM Comput. Surv.'23] [A Survey on Video Moment Localization](https://dl.acm.org/doi/abs/10.1145/3556537). 哈工大 聂礼强团队
 
 # 2 Datasets
@@ -36,6 +36,13 @@ The task is also usually referred to as:
 ## 2018
 ### Fully Supervised
 **Proposal-based**
+- [EMNLP'18] [Temporally Grounding Natural Sentence in Video](https://aclanthology.org/D18-1015/). NUS Tat-Seng Chua团队
+- [IJCAI'18] [Multi-modal Circulant Fusion for Video-to-Language and Backward](https://dl.acm.org/doi/abs/10.5555/3304415.3304561). 天大 韩亚洪团队
+- [ACM MM'18] [Cross-modal Moment Localization in Videos](https://dl.acm.org/doi/abs/10.1145/3240508.3240549). 山东大学 聂礼强团队 [[code](https://acmmm18.wixsite.com/role)]
+- [SIGIR'18] [Attentive Moment Retrieval in Videos](https://dl.acm.org/doi/abs/10.1145/3209978.3210003). 山东大学 聂礼强团队 [[code](https://sigir2018.wixsite.com/acrn)]
+
+**Proposal-free**
+- [AAAI'19] [Localizing Natural Language in Videos](https://ojs.aaai.org/index.php/AAAI/article/view/4827). 腾讯AI lab
 
 ### Weakly Supervised
 **Reconstruction-based**
@@ -45,17 +52,32 @@ The task is also usually referred to as:
 ## 2019
 ### Fully Supervised
 **Proposal-based**
+- [AAAI'19] [Semantic Proposal for Activity Localization in Videos via Sentence Query](https://ojs.aaai.org/index.php/AAAI/article/view/4830). 复旦 姜育刚团队
 - [CVPR'19] [MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_MAN_Moment_Alignment_Network_for_Natural_Language_Moment_Retrieval_via_CVPR_2019_paper.html). UCSB Da Zhang
+- [ACM MM'19] [Exploiting Temporal Relationships in Video Moment Localization with Natural Language](Exploiting Temporal Relationships in Video Moment Localization with Natural Language). UR 罗杰波团队 [[code](https://github.com/Sy-Zhang/TCMN-Release)]
+- [NeurIPS'19] [Semantic Conditioned Dynamic Modulation for Temporal Sentence Grounding in Videos](https://proceedings.neurips.cc/paper_files/paper/2019/hash/6883966fd8f918a4aa29be29d2c386fb-Abstract.html). 清华 朱文武团队 [[code](https://github.com/yytzsy/SCDM)]
+- [SIGIR'19] [Cross-Modal Interaction Networks for Query-Based Moment Retrieval in Videos](https://dl.acm.org/doi/abs/10.1145/3331184.3331235). 浙大 赵洲团队 [[code](https://github.com/ikuinen/CMIN_moment_retrieval)]
+- [WACV'19] [MAC: Mining Activity Concepts for Language-based Temporal Localization](https://ieeexplore.ieee.org/abstract/document/8658811). 南加大 [[code](https://github.com/runzhouge/MAC)]
+
+**Proposal-free**
+- [AAAI'19] [Multilevel Language and Vision Integration for Text-to-Clip Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/4938). BU Huijuan Xu [[code](https://github.com/VisionLearningGroup/Text-to-Clip_Retrieval)]
+- [AAAI'19] [To Find Where You Talk: Temporal Sentence Localization in Video with Attention Based Location Regression](https://ojs.aaai.org/index.php/AAAI/article/view/4950). 清华 朱文武团队 [[code](https://github.com/yytzsy/ABLR_code)]
+- [EMNLP'19] [DEBUG: A Dense Bottom-Up Grounding Approach for Natural Language Video Localization](https://aclanthology.org/D19-1518/). 浙大 肖俊团队
+
+**RL-based**
+- [AAAI'19] [Read, Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos](https://ojs.aaai.org/index.php/AAAI/article/view/4854). 百度
+- [CVPR'19] [Language-Driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model](https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.html). 中科院 王亮团队
 
 ### Weakly Supervised
 **MIL-based**
 - [CVPR'19] [Weakly Supervised Video Moment Retrieval From Text Queries](https://openaccess.thecvf.com/content_CVPR_2019/html/Mithun_Weakly_Supervised_Video_Moment_Retrieval_From_Text_Queries_CVPR_2019_paper.html). UCR Amit K. Roy-Chowdhury团队 [[code](https://github.com/niluthpol/weak_supervised_video_moment)]
     - 正式提出weakly supervised temporal sentence grounding任务。
+- [EMNLP'19] [WSLLN:Weakly Supervised Natural Language Localization Networks](https://aclanthology.org/D19-1157/). Salesforce
 
 ## 2020
 ### Fully Supervised
 **Proposal-based**
-- [AAAI'20] [Learning 2D Temporal Adjacent Networks for Moment Localization with Natural Language](https://ojs.aaai.org/index.php/AAAI/article/view/6984). UR 张宋扬 [[code](https://github.com/microsoft/2D-TAN)]
+- [AAAI'20] [Learning 2D Temporal Adjacent Networks for Moment Localization with Natural Language](https://ojs.aaai.org/index.php/AAAI/article/view/6984). UR 罗杰波团队 [[code](https://github.com/microsoft/2D-TAN)]
 	- 首次提出2D map的方法，后面proposal-based的论文大多都是基于这个方法。
 
 **Proposal-free**

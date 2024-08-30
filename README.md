@@ -22,9 +22,6 @@ The task is also usually referred to as:
 
 # 1 Survey
 - [TPAMI'23] [Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队
-
-- [TPAMI'23][Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队
-
 - [ACM Comput. Surv.'23] [A Survey on Video Moment Localization](https://dl.acm.org/doi/abs/10.1145/3556537). 哈工大 聂礼强团队
 
 # 2 Datasets
@@ -175,6 +172,8 @@ The task is also usually referred to as:
 ## 2024
 ### <h3 id="fully-supervised-2024">Fully Supervised</h3>
 **Proposal-based**
+- [ACM MM'24] [Maskable Retentive Network for Video Moment Retrieval](https://openreview.net/forum?id=pIHHAUa500). 合工大 汪萌团队 [[code](https://github.com/xian-sh/MRNet)]
+- [AAAI'24] [Exploiting Auxiliary Caption for Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/29812). 北大 邹月娴团队
 
 **Proposal-free**
 
@@ -184,10 +183,13 @@ The task is also usually referred to as:
 - [AAAI'24] [TR-DETR: Task-Reciprocal Transformer for Joint Moment Retrieval and Highlight Detection](https://ojs.aaai.org/index.php/AAAI/article/view/28304). 华中师范 谢伟团队 [[code](https://github.com/mingyao1120/TR-DETR)]
 - [CVPR'24] [Task-Driven Exploration: Decoupling and Inter-Task Feedback for Joint Moment Retrieval and Highlight Detection](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Task-Driven_Exploration_Decoupling_and_Inter-Task_Feedback_for_Joint_Moment_Retrieval_CVPR_2024_paper.html). 西交 魏平团队 [[code](https://github.com/EdenGabriel/TaskWeave)]
 - [CVPR'24] [Bridging the Gap: A Unified Video Comprehension Framework for Moment Retrieval and Highlight Detection](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Bridging_the_Gap_A_Unified_Video_Comprehension_Framework_for_Moment_CVPR_2024_paper.html). 清华 李秀团队 [[code](https://github.com/EasonXiao-888/UVCOM)]
+- [ACM MM'24] [Prior Knowledge Integration via LLM Encoding and Pseudo Event Regulation for Video Moment Retrieval](https://arxiv.org/abs/2407.15051). 港浸大 魏骁勇团队 [[code](https://github.com/fletcherjiang/LLMEPET)]
 
 **Bias**
 - [AAAI'24] [Bias-Conflict Sample Synthesis and Adversarial Removal Debias Strategy for Temporal Sentence Grounding in Video](https://ojs.aaai.org/index.php/AAAI/article/view/28252). 哈工大 张维刚团队 [[code](https://github.com/qzhb/BSSARD)]
 ### <h3 id="weakly-supervised-2024">Weakly Supervised</h3>
 **Reconstruction-based**
 - [AAAI'24] [Gaussian Mixture Proposals with Pull-Push Learning Scheme to Capture Diverse Events for Weakly Supervised Temporal Video Grounding](https://ojs.aaai.org/index.php/AAAI/article/view/28059). 首尔大学 Jin Young Choi团队 [[code](https://github.com/sunoh-kim/pps)]
+- [AAAI'24] [Omnipotent Distillation with LLMs for Weakly-Supervised Natural Language Video Localization: When Divergence Meets Consistency](https://ojs.aaai.org/index.php/AAAI/article/view/27832). NTU Alex C. Kot团队
 - [PR'24] [Triadic temporal-semantic alignment for weakly-supervised video moment retrieval](https://www.sciencedirect.com/science/article/pii/S0031320324005703). 山东大学 周风余团队
+- [ACL'24] [Exploiting Intrinsic Multilateral Logical Rules for Weakly Supervised Natural Language Video Localization](https://aclanthology.org/2024.acl-long.247/). 西电 邓成团队

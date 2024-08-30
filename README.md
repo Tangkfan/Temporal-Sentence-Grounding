@@ -26,7 +26,11 @@ The task is also usually referred to as:
     - [2024](#2024)
 
 # 1 Survey
+<<<<<<< HEAD
 - [TPAMI'23] [Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队
+=======
+- [TPAMI'23][Temporal Sentence Grounding in Videos: A Survey and Future Directions](https://ieeexplore.ieee.org/abstract/document/10075491). NTU 孙爱欣团队
+>>>>>>> e7de7d16214ec04f4ecf81716529b30467f097d8
 - [ACM Comput. Surv.'23] [A Survey on Video Moment Localization](https://dl.acm.org/doi/abs/10.1145/3556537). 哈工大 聂礼强团队
 
 # 2 Datasets
@@ -65,7 +69,11 @@ The task is also usually referred to as:
 **Proposal-based**
 - [AAAI'19] [Semantic Proposal for Activity Localization in Videos via Sentence Query](https://ojs.aaai.org/index.php/AAAI/article/view/4830). 复旦 姜育刚团队
 - [CVPR'19] [MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_MAN_Moment_Alignment_Network_for_Natural_Language_Moment_Retrieval_via_CVPR_2019_paper.html). UCSB Da Zhang
+<<<<<<< HEAD
 - [ACM MM'19] [Exploiting Temporal Relationships in Video Moment Localization with Natural Language](https://dl.acm.org/doi/abs/10.1145/3343031.3350879). UR 罗杰波团队 [[code](https://github.com/Sy-Zhang/TCMN-Release)]
+=======
+- [ACM MM'19] [Exploiting Temporal Relationships in Video Moment Localization with Natural Language](Exploiting Temporal Relationships in Video Moment Localization with Natural Language). UR 罗杰波团队 [[code](https://github.com/Sy-Zhang/TCMN-Release)]
+>>>>>>> e7de7d16214ec04f4ecf81716529b30467f097d8
 - [NeurIPS'19] [Semantic Conditioned Dynamic Modulation for Temporal Sentence Grounding in Videos](https://proceedings.neurips.cc/paper_files/paper/2019/hash/6883966fd8f918a4aa29be29d2c386fb-Abstract.html). 清华 朱文武团队 [[code](https://github.com/yytzsy/SCDM)]
 - [SIGIR'19] [Cross-Modal Interaction Networks for Query-Based Moment Retrieval in Videos](https://dl.acm.org/doi/abs/10.1145/3331184.3331235). 浙大 赵洲团队 [[code](https://github.com/ikuinen/CMIN_moment_retrieval)]
 - [WACV'19] [MAC: Mining Activity Concepts for Language-based Temporal Localization](https://ieeexplore.ieee.org/abstract/document/8658811). 南加大 [[code](https://github.com/runzhouge/MAC)]

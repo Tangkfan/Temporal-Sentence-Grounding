@@ -19,6 +19,7 @@ Recent studies have started investigating techniques to augment the grounding ca
   - [2023](#2023)
   - [2024](#2024)
   - [2025](#2025)
+  - [2026](#2026)
 - [4 Traditional TVG](#4-traditional-tvg)
   - [2017](#2017)
     - [Fully Supervised](#fully-supervised)
@@ -100,6 +101,7 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [COLING] [Mitigating the discrepancy between video and text temporal sequences: A time-perception enhanced video grounding method for LLM](https://aclanthology.org/2025.coling-main.655/).
 - [TIP'25] [Caption assisted multimodal large language model for video moment retrieval](https://ieeexplore.ieee.org/abstract/document/11206011).[[code](https://github.com/tjhd1475/CALCE)]
 - [ICCV'25] [Enrich and Detect: Video Temporal Grounding  with Multimodal LLMs](https://openaccess.thecvf.com/content/ICCV2025/html/Pramanick_Enrich_and_Detect_Video_Temporal_Grounding_with_Multimodal_LLMs_ICCV_2025_paper.html).
+- [ICCV'25] [Factorized Learning for Temporally Grounded Video-Language Models](https://arxiv.org/pdf/2512.24097) [[code](https://github.com/nusnlp/d2vlm)]
 - [NeurIPS'25] [Uncertainty-quantified Rollout Policy Adaptation for Unlabelled Cross-domain Video Temporal Grounding](https://openreview.net/forum?id=RfNiN2rENM) [[code](https://lwpyh.github.io/URPA/)]
 - [NeurIPS'25] [Time-R1: Post-training large vision language model for temporal video grounding](https://arxiv.org/abs/2503.13377). [[code](https://github.com/xiaomi-research/time-r1)]
 - [arXiv] [Measure Twice, Cut Once: Grasping Video Structures and Event Semantics with LLMs for Video Temporal Localization](https://arxiv.org/abs/2503.09027). [[code](https://github.com/pangzss/MeCo)]
@@ -114,7 +116,8 @@ Recent studies have started investigating techniques to augment the grounding ca
 - [arXiv] [TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning](https://arxiv.org/abs/2512.03963). 
 - [arXiv] [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) [[website](https://timelens-arc-lab.github.io/)] [[code](https://github.com/TencentARC/TimeLens)]
 
-
+## 2026
+- [ECCV'26] [Parallelized Autoregressive Decoding for Omni-Modal Dense Video Captioning](https://arxiv.org/pdf/2607.02963) [[code](https://github.com/showlab/PadCaptioner)]
 
 # 4 Traditional TVG
 ## 2017
